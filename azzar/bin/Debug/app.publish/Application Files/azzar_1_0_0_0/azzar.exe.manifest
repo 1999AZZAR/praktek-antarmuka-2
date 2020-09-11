@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="azzar.exe" version="1.0.0.0" publicKeyToken="1230ad9176068f8f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="azzar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="azzar.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="azzar.exe" size="297384">
+      <assemblyIdentity name="azzar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zqLI6jupbhUXwieX9f1TV8HR73gH5SYkFtjhCYaDInA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="azzar.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ALPHA\azzar" issuerKeyHash="65c4c8a205a10480db757e4a4a0a0fcf4cbc182b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MMd086gXS3DqVcBhnLBTarYNawgie8Cpx7urqHOOWdQ=</DigestValue></Reference></SignedInfo><SignatureValue>WmLPelOWNH0lreL62r3zEXYOd4OG9x9lFARPyWs/R3GqhU+vz0G0/wm5ykEhnbClb4S4UihPiYORSXuLqLj/OZ0U2IZWUfqDAG8VHN2Pm/zhNZUdVKRRgMl5d2YMwngnR7yNDrAQ3bzZurkPxWEpx+VicpCc7RuJii5qxWGqfZY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x7iu7WhP9jm1fLXg+bNSUGlamJNAMiehlPC3cjK16YcDhOltMKV6FouDiSujYG5D2ifSKRqGf0rEURKqV0ElJC56OZxhsIEhHviO6TWSrHQhOCn6Ch0M/FT+mLwQKLochwc84cJ+NCf6yhXIvqmRe/gTg1VX9hfBpIZ1swE1an0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d4598e73a8abbbc7a9c07b22086b0db66a53b09c61c055ea704b17a8f374c730" Description="" Url=""><as:assemblyIdentity name="azzar.exe" version="1.0.0.0" publicKeyToken="1230ad9176068f8f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ALPHA\azzar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZU7hbkhacMzmmcpV4nlgoloLF4GAD9je2a8KDAyMNrs=</DigestValue></Reference></SignedInfo><SignatureValue>G/Z8TjMx5B2bhesR/3vdz6wOrHYwNxBI7923UtwJt4E8HM6oxifp02acwbm2WjNbNcCgzzgv2LMV+6/GZYeXQUHVHn0UdBwhVevALmCEYn8xRPpNC6eRbVistGGdIP4zURKWemuQnChrFwg7FvcHoWzy2197cKh1aJtRTWNKoQU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x7iu7WhP9jm1fLXg+bNSUGlamJNAMiehlPC3cjK16YcDhOltMKV6FouDiSujYG5D2ifSKRqGf0rEURKqV0ElJC56OZxhsIEhHviO6TWSrHQhOCn6Ch0M/FT+mLwQKLochwc84cJ+NCf6yhXIvqmRe/gTg1VX9hfBpIZ1swE1an0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQV8H8koFcR6VO4ppRu6NlwDANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAQQBMAFAASABBAFwAYQB6AHoAYQByMB4XDTIwMDkxMTA4NDA1MVoXDTIxMDkxMTE0NDA1MVowITEfMB0GA1UEAx4WAEEATABQAEgAQQBcAGEAegB6AGEAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAx7iu7WhP9jm1fLXg+bNSUGlamJNAMiehlPC3cjK16YcDhOltMKV6FouDiSujYG5D2ifSKRqGf0rEURKqV0ElJC56OZxhsIEhHviO6TWSrHQhOCn6Ch0M/FT+mLwQKLochwc84cJ+NCf6yhXIvqmRe/gTg1VX9hfBpIZ1swE1an0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQC51SL3jM7JMQ9+TKDb2DGveWGuyhxHdwbyulkiWM/o398k/Mi+Bi7b5e0L8h/+D9EJStCUovh12ZrEg/JR7ynlE/1Nb/Up9v/UgSyBfIDi/drE2QirkntnRa/dwKRi5FVsjiS8pPeBwSy3YjcTWJkihVX/dBk2jUZ+NdGgn0OysQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
